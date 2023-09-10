@@ -1,0 +1,10 @@
+public class Main {
+    public void imprimirMensagem() {
+        System.out.println("Hello World!");
+    }
+
+    public static void main(String[] args) {
+        Main hello = new Main();
+        hello.imprimirMensagem();
+    }
+}
