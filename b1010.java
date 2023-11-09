@@ -6,12 +6,12 @@ public class b1010 {
         Locale.setDefault(Locale.US);
 
         String nome;
-        float b, d;
+        double b, d;
 
         try (Scanner scan = new Scanner(System.in)) {
             nome = scan.next();
-            b = scan.nextFloat();
-            d = scan.nextFloat();
+            b = scan.nextDouble();
+            d = scan.nextDouble();
 
             System.out.printf("TOTAL = R$ %.2f\n", b + d * 15 / 100);
         }
