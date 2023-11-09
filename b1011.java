@@ -8,7 +8,7 @@ public class B1011 {
 
         try (Scanner scan = new Scanner(System.in)) {
             raio = scan.nextFloat();
-            System.out.printf("VOLUME = %.3f", (4.0 / 3) * 3.14159 * Math.pow(raio, 3));
+            System.out.printf("VOLUME = %.3f\n", (4.0 / 3) * 3.14159 * Math.pow(raio, 3));
         }
 
     }
