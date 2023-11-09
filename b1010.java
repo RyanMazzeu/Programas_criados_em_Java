@@ -5,16 +5,19 @@ public class b1010 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
 
-        // String nome;
-        double b, d;
+        int cod1, cod2, qtd1, qtd2;
+        float preco1, preco2;
 
-        try (Scanner scan = new Scanner(System.in)) {
-            // nome = scan.next();
-            b = scan.nextDouble();
-            d = scan.nextDouble();
+        Scanner scan = new Scanner(System.in);
 
-            System.out.printf("TOTAL = R$ %.2f\n", b + d * 15 / 100);
-        }
+        cod1 = scan.nextInt();
+        qtd1 = scan.nextInt();
+        preco1 = scan.nextFloat();
 
+        cod2 = scan.nextInt();
+        qtd2 = scan.nextInt();
+        preco2 = scan.nextFloat();
+
+        System.out.printf("VALOR A PAGAR: R$ %.2f\n", qtd1 * preco1 + qtd2 * preco2);
     }
 }

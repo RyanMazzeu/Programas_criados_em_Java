@@ -1,18 +1,20 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class b1009{
+public class Main {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
 
-        Scanner scanner = new Scanner(System.in);
         String nome;
-        float a, b;
+        double b, d;
 
-        nome = scanner.nextString();
-        a = scanner.nextFloat();
-        b = scanner.nextFloat();
+        try (Scanner scan = new Scanner(System.in)) {
+            nome = scan.next();
+            b = scan.nextDouble();
+            d = scan.nextDouble();
 
-        System.out.printf("TOTAL = ", a * b*15/100);
+            System.out.printf("TOTAL = R$ %.2f\n", b + d * 15 / 100);
+        }
+
     }
 }
