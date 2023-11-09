@@ -10,7 +10,7 @@ public class B1014 {
             distancia = scan.nextInt();
             valor = scan.nextFloat();
 
-            System.out.printf("%.3f km/l", distancia / valor);
+            System.out.printf("%.3f km/l\n", distancia / valor);
 
         }
 
