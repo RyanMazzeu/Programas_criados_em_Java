@@ -5,11 +5,11 @@ public class b1010 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
 
-        String nome;
+        // String nome;
         double b, d;
 
         try (Scanner scan = new Scanner(System.in)) {
-            nome = scan.next();
+            // nome = scan.next();
             b = scan.nextDouble();
             d = scan.nextDouble();
 
