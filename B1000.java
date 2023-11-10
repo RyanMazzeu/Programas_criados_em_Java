@@ -4,7 +4,7 @@ public class B1000 {
     }
 
     public static void main(String[] args) {
-        Main hello = new Main();
+        B1000 hello = new B1000();
         hello.imprimirMensagem();
     }
 }
