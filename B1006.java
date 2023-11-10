@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class B1006 {
 
     public static void main(String[] args) throws Exception {
         Locale.setDefault(Locale.US);
@@ -9,8 +9,11 @@ public class Main {
         try (Scanner scan = new Scanner(System.in)) {
             Double a = scan.nextDouble();
             Double b = scan.nextDouble();
-            Double media = (3.5f* a + b * 7.5f) / 11;
-            System.out.printf("MEDIA = %.5f%n",media);
+            Double c = scan.nextDouble();
+
+            Double media = (2* a + b * 3 + c*5) / 10;
+
+            System.out.printf("MEDIA = %.1f%n",media);
         }
 
     }

@@ -1,16 +1,17 @@
 import java.util.Scanner;
 
-public class Main {
-    public static int somar(int a, int b) {
+public class B1003 {
+    public static int soma(int a, int b) {
         return a + b;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         try (Scanner scan = new Scanner(System.in)) {
             int a = scan.nextInt();
             int b = scan.nextInt();
 
-            System.out.println("X = " + somar(a, b));
+            System.out.println("SOMA = " + soma(a, b));
         }
+
     }
 }

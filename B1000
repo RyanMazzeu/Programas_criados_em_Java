@@ -1,4 +1,4 @@
-public class Main {
+public class B1000 {
     public void imprimirMensagem() {
         System.out.println("Hello World!");
     }

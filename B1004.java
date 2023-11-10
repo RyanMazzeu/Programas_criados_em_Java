@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
-public class Main {
-    public static int soma(int a, int b) {
-        return a + b;
+public class B1004 {
+
+    public static int product(int a, int b) {
+        return a * b;
     }
 
     public static void main(String[] args) throws Exception {
@@ -10,8 +11,7 @@ public class Main {
             int a = scan.nextInt();
             int b = scan.nextInt();
 
-            System.out.println("SOMA = " + soma(a, b));
+            System.out.println("PROD = " + product(a, b));
         }
-
     }
 }

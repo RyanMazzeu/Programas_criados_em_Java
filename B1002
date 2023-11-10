@@ -2,7 +2,7 @@ import java.math.BigDecimal;
 import java.util.Locale;
 import java.util.Scanner;
 
-class Main {
+public class B1002 {
     public static final BigDecimal pi = new BigDecimal("3.14159");
 
     public static BigDecimal raio(BigDecimal r) {
