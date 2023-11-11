@@ -13,11 +13,14 @@ public class B1047 {
             fim = hfim * 60 + mfim;
 
             if (fim > inicio) {
-                System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", (fim - inicio) % 60,
-                        (fim - inicio) - ((fim - inicio) % 60) * 60);
+                if (fim - inicio >= 60)
+                    System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", (fim - inicio) / 60,
+                            (fim - inicio) % 60);
+                else
+                    System.out.printf("O JOGO DUROU 0 HORA(S) E %d MINUTO(S)\n", (fim - inicio));
             } else {
-                System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", (24 - (hinicio - hfim)) % 60,
-                        (24 - (hinicio - hfim)) - ((24 - (hinicio - hfim)) % 60) * 60);
+                int duracao = 24 * 60 - inicio + fim; // Calculate the duration in minutes
+                System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", duracao / 60, duracao % 60);
             }
         }
     }
