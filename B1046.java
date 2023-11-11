@@ -1,14 +1,16 @@
 import java.util.Scanner;
 
-public class B1046{
+public class B1046 {
     public static void main(String[] args) {
-        int inicio,fim;
-        try(Scanner scan = new Scanner(System.in)){
+        int inicio, fim;
+        try (Scanner scan = new Scanner(System.in)) {
             inicio = scan.nextInt();
             fim = scan.nextInt();
 
-            if(inicio>fim){
-                System.out.println();
+            if (fim > inicio) {
+                System.out.printf("O JOGO DUROU %d HORA(S)\n", fim - inicio);
+            } else {
+                System.out.printf("O JOGO DUROU %d HORA(S)\n", 24 - (inicio - fim));
             }
         }
     }
