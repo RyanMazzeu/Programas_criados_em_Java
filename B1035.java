@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class B1022 {
+public class B1035 {
     public static void main(String args[]) {
         int A, B, C, D;
         try(Scanner scan = new Scanner(System.in)){
