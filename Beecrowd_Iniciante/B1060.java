@@ -8,7 +8,7 @@ public class B1060 {
         int s = 0;
         a = new float[6];
         try (Scanner scan = new Scanner(System.in)) {
-            for (int i = 0; i < 7; i++) {
+            for (int i = 0; i < 6; i++) {
                 a[0] = scan.nextFloat();
                 if (a[0] > 0.00f) {
                     s++;
