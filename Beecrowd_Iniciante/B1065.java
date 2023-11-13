@@ -1,20 +1,20 @@
 import java.util.Scanner;
 import java.util.Locale;
 
-public class B1060 {
+public class B1065 {
     public static void main(String args[]) {
         Locale.setDefault(Locale.US);
-        float[] a;
+        int[] a;
         int s = 0;
-        a = new float[6];
+        a = new int[5];
         try (Scanner scan = new Scanner(System.in)) {
-            for (int i = 0; i < 6; i++) {
-                a[i] = scan.nextFloat();
-                if (a[i] > 0.00f) {
+            for (int i = 0; i < 5; i++) {
+                a[i] = scan.nextInt();
+                if (a[i] % 2 == 0) {
                     s++;
                 }
             }
-            System.out.printf("%d valores positivos\n", s);
+            System.out.printf("%d valores pares\n", s);
         }
     }
 
