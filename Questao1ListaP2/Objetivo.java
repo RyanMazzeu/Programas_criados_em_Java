@@ -1,4 +1,5 @@
-package Questao1ListaP2;
+package questao1listap2;
+
 public class Objetivo extends Proposito {
     private int recompensa;
 

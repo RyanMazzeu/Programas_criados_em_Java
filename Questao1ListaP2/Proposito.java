@@ -1,4 +1,4 @@
-package Questao1ListaP2;
+package questao1listap2;
 
 public abstract class Proposito {
 
