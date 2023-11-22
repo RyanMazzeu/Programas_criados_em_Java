@@ -1,6 +1,6 @@
 package exercicios_padroes.padraoderesponsabilidade.ex1;
 
-public class A {
+public class A extends B{
     public double getA1() {
         return a1;
     }
