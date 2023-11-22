@@ -14,11 +14,24 @@ public class Main {
         objetivo2.setRecompensa(1000);
 
         missao.addProposito(objetivo);
-        missao.addProposito(objetivo2);
-
         System.out.println("Missao: " + missao.getDescricao());
         System.out.println("Experiencia: " + missao.experiencia());
         System.out.println("Concluida: " + missao.concluida);
+
+        missao.addProposito(objetivo2);
+        System.out.println("Missao: " + missao.getDescricao());
+        System.out.println("Experiencia: " + missao.experiencia());
+        System.out.println("Concluida: " + missao.concluida);
+
+        objetivo.concluida = true;
+        objetivo2.concluida = true;
+        missao.concluida = true;
+        
+        System.out.println("Missao: " + missao.getDescricao());
+        System.out.println("Experiencia: " + missao.experiencia());
+        System.out.println("Concluida: " + missao.concluida);
+
+
         
     }
 }
