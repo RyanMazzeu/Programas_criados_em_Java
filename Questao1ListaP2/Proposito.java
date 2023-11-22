@@ -1,3 +1,4 @@
+package Questao1ListaP2;
 
 public abstract class Proposito {
 

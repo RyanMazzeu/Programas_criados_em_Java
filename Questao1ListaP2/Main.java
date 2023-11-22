@@ -1,6 +1,8 @@
+package Questao1ListaP2;
+
 public class Main {
     public static void main(String[] args) {
-        // testar todas as classes
+        // NÃO FAZ SENTIDO OQ ESSA CLASSE FAZ!
         Missao missao = new Missao();
         missao.setDescricao("Atropelar o Roldao");
         missao.concluida = false;
@@ -26,12 +28,10 @@ public class Main {
         objetivo.concluida = true;
         objetivo2.concluida = true;
         missao.concluida = true;
-        
+
         System.out.println("Missao: " + missao.getDescricao());
         System.out.println("Experiencia: " + missao.experiencia());
         System.out.println("Concluida: " + missao.concluida);
 
-
-        
     }
 }
