@@ -4,5 +4,5 @@ public class C {
     public void atualizar(double v) {
     };
 
-    private B b;
+    //private B b;
 }
