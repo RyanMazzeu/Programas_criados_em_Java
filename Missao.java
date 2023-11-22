@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-
 public class Missao extends Proposito {
     private List<Proposito> propositos = new ArrayList<Proposito>();
 

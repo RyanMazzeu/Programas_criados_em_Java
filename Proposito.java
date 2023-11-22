@@ -1,3 +1,4 @@
+
 public abstract class Proposito {
 
     private String descricao;
